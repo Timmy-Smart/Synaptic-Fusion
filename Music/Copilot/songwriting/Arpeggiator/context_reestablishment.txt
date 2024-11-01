@@ -1,0 +1,41 @@
+## Context Re-establishment
+### Project: Arpeggiator
+
+#### Current Objectives:
+- Develop and refine arpeggio patterns
+- Explore new musical sequences and counterpoint arrangements
+- Enhance the MIDI generation scripts
+
+#### Key Features:
+- Base arpeggio pattern with transpositions
+- Counterpoint track with varied intervals
+- Dynamic note duration and velocity settings
+- Auto-numbering for MIDI output files
+
+#### Scripts and Commands:
+1. **Generate Arpeggio MIDI**:
+    - `python C:/Users/i3/Music/Copilot/songwriting/Arpeggiator/generate_counterpoint_arpeggiator.py`
+
+2. **Backup Operations**:
+    - Backup Story: `python C:/Users/i3/Music/Copilot/songwriting/Arpeggiator/backup_story.py`
+    - Backup Discussion Notes: `python C:/Users/i3/Music/Copilot/songwriting/Arpeggiator/backup_discussion_notes.py`
+    - Backup Images: `python C:/Users/i3/Music/Copilot/songwriting/Arpeggiator/backup_images.py`
+
+3. **Compile Scripts**:
+    - Save Snippets: `python C:/Users/i3/Music/Copilot/songwriting/Arpeggiator/save_snippets.py`
+    - Compile Story: `python C:/Users/i3/Music/Copilot/songwriting/Arpeggiator/compile_story.py`
+
+#### Keybindings in VS Code:
+- `Ctrl+Shift+F`: Start the arpeggiator script
+- `Ctrl+Shift+G`: Stop the arpeggiator script
+- `Ctrl+Shift+V`: Print browser console
+- `Ctrl+Shift+M`: Backup scripts
+- `Ctrl+Shift+N`: Additional MIDI operations
+- `Ctrl+Shift+U`: Save snippets and compile story
+
+#### Important Notes:
+- Keep story and development notes separate
+- Update context re-establishment file regularly
+
+#### GitHub Repository Link:
+- Repository: [GitHub Repository](https://github.com/Timmy-Smart/Synaptic-Fusion)
