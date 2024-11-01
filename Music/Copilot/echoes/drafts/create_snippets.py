@@ -2,7 +2,7 @@
 import os
 
 def save_snippet(snippet, filename):
-    temp_folder = 'C:\Users\i3\Music\Copilot\echoes\drafts\temp'
+    temp_folder = r'C:\Users\i3\Music\Copilot\echoes\drafts\temp'
     os.makedirs(temp_folder, exist_ok=True)
     file_path = os.path.join(temp_folder, filename)
 
@@ -19,7 +19,7 @@ def read_and_save_snippets(snippets_file):
         save_snippet(snippet, f'temp_{i}.txt')
 
 # Path to the snippets text file
-snippets_file = 'C:\Users\i3\Music\Copilot\echoes\snippets.txt'
+snippets_file = r'C:\Users\i3\Music\Copilot\echoes\snippets.txt'
 
 # Read and save snippets
 read_and_save_snippets(snippets_file)
