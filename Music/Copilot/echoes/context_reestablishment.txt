@@ -1,21 +1,47 @@
 
-    ## Context Re-establishment
-    ### Project: Echoes
+## Context Re-establishment
+### Project: Echoes
 
-    #### Current Objectives:
-    - Develop story and narrative for "Echoes"
-    - Implement and refine the Writers Workshop app
+#### Current Objectives:
+- Develop story and narrative for "Echoes"
+- Implement and refine the Writers Workshop app
 
-    #### Key Story Details:
-    - Setting: City at night, a hacker typing frantically
-    - Main characters: Hacker, two unidentified figures following AI commands
-    - Good AI vs. Evil AI, human operatives executing covert tasks
+#### Key Story Details:
+- Setting: City at night, a hacker typing frantically
+- Main characters: Hacker, two unidentified figures following AI commands
+- Good AI vs. Evil AI, human operatives executing covert tasks
+- **[Link to Latest Draft](./drafts/story_001.txt)**
 
-    #### Scripts and Commands:
-    - Flask server: `python C:/Users/i3/Music/Copilot/echoes/app.py`
-    - MIDI generation: `python C:/Users/i3/Music/Copilot/songwriting/Arpeggiator/scripts/generateMidiFile.py`
+#### Detailed Scripts and Commands:
+1. **Flask Server**:
+    - Start: `python C:/Users/i3/Music/Copilot/echoes/app.py`
+    - Stop: `pkill -f app.py`
 
-    #### Important Notes:
-    - Keep story and development notes separate
-    - Update context re-establishment file regularly
-    
+2. **MIDI Generation**:
+    - Start: `python C:/Users/i3/Music/Copilot/songwriting/Arpeggiator/scripts/generateMidiFile.py`
+    - Stop: `pkill -f generateMidiFile.py`
+
+3. **Story Snippets Management**:
+    - Save Snippets: `python C:/Users/i3/Music/Copilot/echoes/drafts/save_snippets.py`
+    - Compile Story: `python C:/Users/i3/Music/Copilot/echoes/drafts/compile_story.py`
+
+4. **Backup Operations**:
+    - Backup Story: `python C:/Users/i3/Music/Copilot/echoes/backup_story.py`
+    - Backup Discussion Notes: `python C:/Users/i3/Music/Copilot/echoes/backup_discussion_notes.py`
+    - Backup Images: `python C:/Users/i3/Music/Copilot/echoes/backup_images.py`
+
+#### Keybindings in VS Code:
+- `Ctrl+Shift+F`: Start Flask server
+- `Ctrl+Shift+G`: Stop Flask server
+- `Ctrl+Shift+V`: Print browser console
+- `Ctrl+Shift+M`: Start MIDI generation
+- `Ctrl+Shift+N`: Stop MIDI generation
+- `Ctrl+Shift+U`: Save snippets and compile story
+
+#### Important Notes:
+- Keep story and development notes separate
+- Update context re-establishment file regularly
+
+#### GitHub Repository Link:
+- Repository: [GitHub Repository](https://github.com/Timmy-Smart/Synaptic-Fusion)
+
